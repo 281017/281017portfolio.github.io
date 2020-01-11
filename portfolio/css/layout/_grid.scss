@@ -1,0 +1,130 @@
+// -----------------------------------------------------------
+// Layout - Grid
+// -----------------------------------------------------------
+
+
+// Container med fixed width
+.container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+// Container med fuld width
+.container-fluid {
+    width: 100%;
+}
+
+.row:before, .row:after {
+    content: "";
+    display: table ;
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+.col-7, .col-8, .col-9, .col-10, .col-11, .col-12,
+.col-offset-1, .col-offset-2, .col-offset-3, .col-offset-4, .col-offset-5, .col-offset-6,
+.col-offset-7, .col-offset-8, .col-offset-9, .col-offset-10, .col-offset-11, .col-offset-12 {
+    float: left;
+    min-height: 1px;
+    display: block;
+}
+
+.col-1, .col-offset-1 {
+	width: 8.33333333333%;
+}
+
+.col-2, .col-offset-2 {
+	width: 16.6666666666%;
+}
+
+.col-3, .col-offset-3 {
+	width: 24.9999999999%;
+}
+
+.col-4, .col-offset-4 {
+	width: 33.3333333333%;
+}
+
+.col-5, .col-offset-5 {
+	width: 41.6666666666%;
+}
+
+.col-6, .col-offset-6 {
+	width: 49.9999999999%;
+}
+
+.col-7, .col-offset-7 {
+	width: 58.3333333333%;
+}
+
+.col-8, .col-offset-8 {
+	width: 66.6666666666%;
+}
+
+.col-9, .col-offset-9 {
+	width: 74.9999999999%;
+}
+
+.col-10, .col-offset-10 {
+	width: 83.3333333333%;
+}
+
+.col-11, .col-offset-11 {
+	width: 91.6666666666%;
+}
+
+.col-12, .col-offset-12 {
+	width: 100%;
+}
+
+// Responsive
+
+@media all and ( max-width: 480px ) {
+
+  .col-responsive {
+  	width: 100%;
+  	display: block;
+  	float: none;
+  }
+
+  .nav-responsive {
+  	display: none;
+  }
+}
+
+@media all and ( max-width: 1024px ) {
+
+  .col-responsive {
+  	width: 100%;
+  	display: block;
+  	float: none;
+  }
+
+  .nav-responsive {
+  	display: none;
+  }
+}
+
+@media all and ( max-width: 1200px ) {
+	.container {
+		padding: 0 10px;
+	}
+}
+
+// Standarder
+* {
+  box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+::selection {
+	color: white;
+	background: black;
+	opacity: 0.8;
+}

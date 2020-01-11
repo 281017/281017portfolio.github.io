@@ -1,0 +1,19 @@
+// -----------------------------------------------------------
+// Base
+// -----------------------------------------------------------
+// Base er de bersale ting du styler saasom baggrunds farver.
+// -----------------------------------------------------------
+
+body {
+  background-color: $flat-clouds;
+}
+
+.bg {
+  width: 200px;
+  height: 200px;
+}
+
+.testbox {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,20 @@
+// -----------------------------------------------------------
+// Components - Button
+// -----------------------------------------------------------
+
+// Buttons
+
+.btn {
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  padding: 10px;
+  outline: 0;
+  font-size: 14px;
+  font-family: OpenSans;
+  color: $flat-friendlyblack;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  }

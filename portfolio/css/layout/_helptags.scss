@@ -1,0 +1,63 @@
+// -----------------------------------------------------------
+// Components - Help Tags
+// -----------------------------------------------------------
+
+// Help Tags
+
+.text-hcenter {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-light {
+	font-weight: lighter;
+}
+
+.img-center {
+  margin: 0 auto;
+  display: block;
+}
+
+.col-flex {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.disabled {
+  background-color: #ccc !important;
+	cursor: default;
+}
+
+.box-hcenter {
+  margin: 0 auto;
+}
+
+.box-vcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.truncate {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
